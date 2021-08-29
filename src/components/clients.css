@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clientespage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    background-color: #000000;
+}
+
+.clientes-container {
+    max-width: 1240px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 80px 0px 90px 0;
+}
+
+.clientes-title {
+    width: 956px;
+    padding-bottom: 96px;
+}
+
+.clientes-title h2 {
+    font-size: 64px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: Satoshi;
+    line-height: 64px;
+    color: #FE016E;
+}
+
+.clientes-text {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.container2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.container3 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.clientes-images2 {
+    width: 100%;
+    height: 324px;
+    position: relative;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    margin: 0 auto;
+}
+
+.clientes-images1 {
+    width: 100%;
+    height: 324px;
+    position: relative;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    margin: 0 auto;
+}
+
+.clientesimg {
+    position: relative;
+    width: 94%;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.clientesimg1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.clientesimg1 img{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.clientesimg2 {
+    position: relative;
+    width: 94%;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.clientesimg img {
+    max-width: 70%;
+    max-height: 65%;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+.clientesimg2 img {
+    max-width: 65%;
+    max-height: 60%;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+.clientesimgsmb {
+    display: none;
+}
+
+.clientes-textmb {
+    display: none;
+}
+
+.clientesimgmb {
+    display: none;
+}
+
+.clientes-images1mb {
+    display: none;
+}
+
+.clientes-titlemb {
+    display: none;
+}
+
+@media (max-width: 820px){
+    .clientes-title {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px){
+    .clientes-title {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    .clientes-title h2 {
+        width: 263px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .clientes-titlemb {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+
+    .clientes-titlemb img{
+        width: 100%;
+        height: auto;
+    }
+
+    .clientes-titlemb h2 {
+        font-size: 31.5px;
+        text-transform: uppercase;
+        color: black;
+        font-weight: 900;
+        font-style: italic;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 29.26px;
+        display: inline-block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
+    .clientes-text {
+        display: none;
+    }
+
+    .clientes-textmb {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+
+    .clientesimgmb {
+        position: relative;
+        width: 90%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .clientesimgmb img {
+        max-width: 70%;
+        max-height: 65%;
+        width: auto;
+        height: auto;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .clientes-images1mb {
+        width: 90%;
+        height: auto;
+        position: relative;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: 0 auto;
+    }
+    
+    .clientesimg2mb {
+        position: relative;
+        width: 90%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .clientesimg2mb img {
+        max-width: 70%;
+        max-height: 65%;
+        width: auto;
+        height: auto;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .clientes-images2mb {
+        width: 90%;
+        height: auto;
+        position: relative;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+    .container2 {
+        display: none;
+    }
+
+    .container3 {
+        display: none;
+    }
+    
+    .clientes-images1 {
+        display: none;
+    }
+
+    .clientes-images2 {
+        display: none;
+    }
+
+    #rodapetextura1 {
+        display: none;
+    }
+}
