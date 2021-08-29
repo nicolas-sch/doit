@@ -30,8 +30,7 @@ export class Footer extends React.Component {
                 <img src={Logofooter} alt="Logofooter" title="Logofooter" loading="lazy"/>
               </div>
               <div className="footer-titlemb">
-                  <p>Copyright © 2021. Global AD Todos os direitos reservados.</p>
-                  {/* <a href="/Privaci">Políticas de Privacidade</a> */}
+                  <p>Copyright © 2021. DO IT + Todos os direitos reservados.</p>
               </div>
             </div>
         </div>
