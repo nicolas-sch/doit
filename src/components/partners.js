@@ -16,42 +16,42 @@ export class Partners extends React.Component {
         </div>
         <div className="partners-cards">
             <div className="parter-card">
-              <img src={Cesar}/>
+              <img src={Cesar} alt="Cesar Paz"/>
               <h4>Cesar Paz</h4>
               <p>Mentoring</p>
-              <a href="https://www.linkedin.com/in/cesarpazdex/" target="_blank">
+              <a href="https://www.linkedin.com/in/cesarpazdex/" rel="noreferrer" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
             <div className="parter-card">
-              <img src={Cristiano}/>
+              <img src={Cristiano} alt="Cristiano Fragoso"/>
               <h4>Cristiano Fragoso</h4>
               <p>CCO</p>
-              <a href="https://www.linkedin.com/in/cristiano-fragoso-06085631/" target="_blank">
+              <a href="https://www.linkedin.com/in/cristiano-fragoso-06085631/" rel="noreferrer" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
             <div className="parter-card">
-              <img src={Joao}/>
+              <img src={Joao} alt="Joao Carapeto"/>
               <h4>Joao Carapeto</h4>
               <p>COO</p>
-              <a href="https://www.linkedin.com/in/carapeto/" target="_blank">
+              <a href="https://www.linkedin.com/in/carapeto/" rel="noreferrer" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
               </a>            
             </div>
             <div className="parter-card">
-              <img src={Liana}/>
+              <img src={Liana} alt="Liana Bazanela"/>
               <h4>Liana Bazanela</h4>
               <p>Chairwoman</p>
-              <a href="https://www.linkedin.com/in/liana-bazanela-8b80a217/" target="_blank">
+              <a href="https://www.linkedin.com/in/liana-bazanela-8b80a217/"rel="noreferrer"  target="_blank">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
             <div className="parter-card">
-              <img src={Vinicius}/>
+              <img src={Vinicius} alt="Vinicius Ghise"/>
               <h4>Vinícius Ghise</h4>
               <p>CEO</p>
-              <a href="https://www.linkedin.com/in/viniciusghise/" target="_blank">
+              <a href="https://www.linkedin.com/in/viniciusghise/" rel="noreferrer" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </div>

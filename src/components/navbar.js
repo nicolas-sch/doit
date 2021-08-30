@@ -41,7 +41,7 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active': 'nav-menu'}>
                         <li className="nav-item">
-                            <a href="" className="nav-links" onClick={closeMobileMenu}>
+                            <a href="" rel="noreferrer" className="nav-links" onClick={closeMobileMenu}>
                                 <Link
                                     onClick={closeMobileMenu}
                                     activeClass="active"
@@ -57,7 +57,7 @@ function Navbar() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="" className="nav-links" onClick={closeMobileMenu}>
+                            <a href="" rel="noreferrer" className="nav-links" onClick={closeMobileMenu}>
                                 <Link
                                     onClick={closeMobileMenu}
                                     activeClass="active"
@@ -73,7 +73,7 @@ function Navbar() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="" className="nav-links" onClick={closeMobileMenu}>
+                            <a href="" rel="noreferrer" className="nav-links" onClick={closeMobileMenu}>
                                 <Link
                                     onClick={closeMobileMenu}
                                     activeClass="active"
@@ -89,7 +89,7 @@ function Navbar() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="" className="nav-links" onClick={closeMobileMenu}>
+                            <a href="" rel="noreferrer" className="nav-links" onClick={closeMobileMenu}>
                             <Link
                                 onClick={closeMobileMenu}
                                 activeClass="active"
@@ -104,10 +104,10 @@ function Navbar() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-links" href="https://www.linkedin.com/company/do-it-wfs/" target="_blank"><i class="fab fa-linkedin-in"/></a>
+                            <a className="nav-links" rel="noreferrer" href="https://www.linkedin.com/company/do-it-wfs/" target="_blank"><i class="fab fa-linkedin-in"/></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-links" href="https://www.instagram.com/doitbrandingtech/" target="_blank"><i class="fab fa-instagram"/></a>
+                            <a className="nav-links" rel="noreferrer" href="https://www.instagram.com/doitbrandingtech/" target="_blank"><i class="fab fa-instagram"/></a>
                         </li>
                     </ul>
                 </div>

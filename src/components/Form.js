@@ -169,11 +169,6 @@ export class ValiationForm extends Component {
                   <div className="checkbox__box"></div>
                   <p>Quero receber informações por email</p>
               </label>
-              {/* <label className="checkbox1" for="myCheckboxId1">
-                  <input className="checkbox__input1" type="checkbox" id="myCheckboxId1"/>
-                  <div className="checkbox__box1"></div>
-                  <p>Concordo com as <a>Políticas de Privacidade</a></p>
-              </label> */}
           </div>
           <div className="form-button">
               <button type="submit" class='f-button f-button-slide-up' data-text='Enviar'>
