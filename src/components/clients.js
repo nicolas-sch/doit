@@ -16,7 +16,7 @@ import Nexa from '../assets/Nexa.svg';
 import Oceano from '../assets/Oceano_B2B.svg';
 import HiPlataform from '../assets/Hi_Plataform.svg';
 import Ticket from '../assets/TicketLog.svg';
-import Unilever from '../assets/Unilever.svg';
+import Unilever from '../assets/Unilever.png';
 import MarquesAlmeida from '../assets/Marques_Almeida.svg';
 import Votorantim from '../assets/Votorantim.svg';
 import SaoLucas from '../assets/Hosp_Sao_Lucas.svg'

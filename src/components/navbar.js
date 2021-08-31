@@ -36,8 +36,9 @@ function Navbar() {
                     <div className="navbar-logo" onClick={closeMobileMenu}>
                        <a href="/"><img src={LogoNav} alt="Logo" /></a>
                     </div>
-                    <div className='menu-icon' onClick={handleClick}>
-                        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+                    <div className='menu-icon'>
+                        <a className="nav-links" rel="noreferrer" href="https://www.linkedin.com/company/do-it-wfs/" target="_blank"><i class="fab fa-linkedin-in"/></a>
+                        <a className="nav-links" rel="noreferrer" href="https://www.instagram.com/doitbrandingtech/" target="_blank"><i class="fab fa-instagram"/></a>
                     </div>
                     <ul className={click ? 'nav-menu active': 'nav-menu'}>
                         <li className="nav-item">

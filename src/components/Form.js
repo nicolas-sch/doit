@@ -91,6 +91,9 @@ export class ValiationForm extends Component {
   render() {
     return (
       <form className="form2container" onSubmit={this.handleSubmit}>
+        <div className="form-title">
+          <h3>Contato</h3>
+        </div>
         <div className="form-group"> 
           <input
             className="form-control"
@@ -139,7 +142,7 @@ export class ValiationForm extends Component {
           type="text"
         >
               <option selected="selected">Assunto</option>
-              <option name="Assunto" type="text" value="Quero contratar a Global AD">Quero contratar a Global AD</option>
+              <option name="Assunto" type="text" value="Quero contratar a Do It +">Quero contratar a Do It +</option>
               <option name="Assunto" type="text" value="Contato Administrativo / Financeiro">Contato Administrativo / Financeiro</option>
               <option name="Assunto" type="text" value="Quero fazer parte do time">Quero fazer parte do time</option>
               <option name="Assunto" type="text" value="Contato geral">Contato geral</option>

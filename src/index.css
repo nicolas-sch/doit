@@ -1,18 +1,14 @@
 @font-face {
   font-family: 'Satoshi';
   src: local('Satoshi'), url(./fonts/Variable/Satoshi-Variable.ttf) format('truetype');
-  src: local('Satoshi'), url(./fonts/Variable/Satoshi-VariableItalic.ttf) format('truetype');
   src: local('Satoshi'), url(./fonts/WEB/fonts/Satoshi-Bold.ttf) format('truetype');
-  src: local('Satoshi'), url(./fonts/WEB/fonts/Satoshi-BoldItalic.ttf) format('truetype');
   src: local('Satoshi'), url(./fonts/WEB/fonts/Satoshi-Italic.ttf) format('truetype');
   src: local('Satoshi'), url(./fonts/WEB/fonts/Satoshi-Light.ttf) format('truetype');
   src: local('Satoshi'), url(./fonts/WEB/fonts/Satoshi-Medium.ttf) format('truetype');
   src: local('Satoshi'), url(./fonts/WEB/fonts/Satoshi-Regular.ttf) format('truetype');
   src: local('Satoshi'), url(./fonts/WEB/fonts/Satoshi-Variable.ttf) format('truetype');
-  src: local('Satoshi'), url(./fonts/WEB/fonts/Satoshi-VariableItalic.ttf) format('truetype');
   src: local('Satoshi'), url(./fonts/WEB/fonts/Satoshi-Black.ttf) format('truetype');
-  src: local('Satoshi'), url(./fonts/WEB/fonts/Satoshi-BlackItalic.ttf) format('truetype');
-}
+  }
 
 /**
  * @license
