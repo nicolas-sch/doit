@@ -75,7 +75,7 @@
 
 .nav-links a:hover{
   color: #FE016E;
-  transition: transform 0.4s ease-out;
+  transition: ease-out 0.5s;
 }
 
 .fa-bars {

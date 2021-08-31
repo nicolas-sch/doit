@@ -106,9 +106,9 @@
 
 .fa-linkedin-in:hover, 
 .fa-instagram:hover {
-    color: #FFFFFF;
-    background-color: #FE016E;
+    color: #FE016E;
     transition: ease-out 0.5s;
+    border: 1px solid #FE016E;
 }
 
 @media (max-width: 480px){
